@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegundaTarefa", "SegundaTarefa\SegundaTarefa.csproj", "{07ECFF81-8C16-493B-A6BA-AC1214382043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiraTarefa", "PrimeiraTarefa\PrimeiraTarefa.csproj", "{8156E35B-EF41-4929-BD27-05217B6DA835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07ECFF81-8C16-493B-A6BA-AC1214382043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07ECFF81-8C16-493B-A6BA-AC1214382043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07ECFF81-8C16-493B-A6BA-AC1214382043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07ECFF81-8C16-493B-A6BA-AC1214382043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8156E35B-EF41-4929-BD27-05217B6DA835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8156E35B-EF41-4929-BD27-05217B6DA835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8156E35B-EF41-4929-BD27-05217B6DA835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8156E35B-EF41-4929-BD27-05217B6DA835}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5DC1475-7FD6-4FC2-B66D-664E415C4567}
+	EndGlobalSection
+EndGlobal

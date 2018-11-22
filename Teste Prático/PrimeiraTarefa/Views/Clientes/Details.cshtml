@@ -1,0 +1,78 @@
+﻿@model PrimeiraTarefa.Models.Cliente
+
+@{
+    ViewData["Title"] = "Visualizar";
+}
+
+<h2>Visualizar</h2>
+
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Rua)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Rua)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Numero)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Complemento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Complemento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cidade)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cidade)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Uf)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Uf)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Pais)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pais)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cep)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cep)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CpfOuCnpj)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CpfOuCnpj)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Editar</a> |
+    <a asp-action="Index">Voltar para a lista</a>
+</div>
